@@ -6,5 +6,7 @@ To depoly this project, you can:
 > ./ganache.sh  
 > ./truffle.sh compile  
 > ./truffle.sh deploy  
+
 And then interact with the contract by:  
+
 > ./truffle.sh console
