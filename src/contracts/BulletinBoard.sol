@@ -86,18 +86,4 @@ contract BulletinBoard {
 
         return (0, id, 0, "", "", msg.sender);
     }
-/*
-    function getCommentsByBulletinID(uint bid) public view returns (Comment[] memory) {
-        Comment[] memory comments;
-        uint Length = Comments.length;
-        for (uint i = 0; i < Length; ++i) {
-            Comment memory comment = Comments[i];
-            if (comment.bulletinID == bid) {
-                comments.push(comment);
-            }
-        }
-
-        return comments;
-    }
-*/
 }
